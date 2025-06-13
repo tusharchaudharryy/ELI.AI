@@ -30,15 +30,16 @@ except:
     messages = []
 
 # Function to perform a Google search and format the results.
-
-
 def GoogleSearch(query):
-    results = search(query, num_results=5)
+    results = list(search(query, advanced=True, num_results=5))
     Answer = f"The search results for '{query}' are:\n[start]\n"
-    for url in results:
-        Answer += f"Link: {url}\n\n"
+
+    for i in results:
+        Answer += f"Title: {i.title}\nDescription: {i.description}\n\n"
+
     Answer += "[end]"
     return Answer
+
 # Function to clean up the answer by removing empty lines.
 def AnswerModifier(Answer):
     lines = Answer.split('\n')
