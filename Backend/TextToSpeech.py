@@ -4,7 +4,8 @@ import asyncio
 import edge_tts
 import os
 from dotenv import dotenv_values
-env_vars = dotenv_values(".env")
+from pathlib import Path
+env_vars = dotenv_values(dotenv_path=Path(__file__).resolve().parent.parent / ".env")
 AssistantVoice = env_vars.get("AssistantVoice")
 
    
@@ -79,8 +80,3 @@ def TextToSpeech(Text, func = lambda r=None: True):
 if __name__ == "__main__":
     while True:
         TextToSpeech(input("Enter the text:"))
-
-       
-
-
-
