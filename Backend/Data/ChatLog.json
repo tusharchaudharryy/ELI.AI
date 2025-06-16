@@ -1,82 +1,26 @@
 [
     {
         "role": "user",
-        "content": "Hi]"
-    },
-    {
-        "role": "assistant",
-        "content": "Hi\n"
-    },
-    {
-        "role": "user",
-        "content": "Who is Elon Musk?"
-    },
-    {
-        "role": "assistant",
-        "content": "Elon Musk is a businessman and entrepreneur known for his roles in founding, leading, and investing in several high-profile companies, including Tesla, SpaceX, and X (formerly Twitter).\n"
-    },
-    {
-        "role": "user",
         "content": "Hi"
     },
     {
         "role": "assistant",
-        "content": "Hi"
+        "content": "Hi! It seems like you're interested in the meaning and usage of the greeting \"hi\". According to the search results, \"hi\" is an informal greeting, often used with people you know, and is more casual than \"hello\". It can also be used as an exclamation to get someone's attention. Additionally, \"hi\" abbreviation has multiple meanings, including \"Hawaii\", \"high intensity\", and \"humidity index\"."
     },
     {
         "role": "user",
-        "content": "Who is Salman Khan?"
+        "content": "what is the time now"
     },
     {
         "role": "assistant",
-        "content": "Salman Khan is an Indian film actor, producer, and television personality who has appeared in over 100 films and television shows."
+        "content": "According to my internal clock, the current time is 13 hours, 30 minutes, and 09 seconds on Monday, June 16, 2025."
     },
     {
         "role": "user",
-        "content": "Hi"
+        "content": "what is the stock price of apple now"
     },
     {
         "role": "assistant",
-        "content": "Hi"
-    },
-    {
-        "role": "user",
-        "content": "Who is Elon Musk?"
-    },
-    {
-        "role": "assistant",
-        "content": "Elon Musk is a businessman and entrepreneur known for his roles in founding, leading, and investing in several high-profile companies, including Tesla, SpaceX, and X (formerly Twitter)."
-    },
-    {
-        "role": "user",
-        "content": "Who is Jigisha Arora IIT Ropar?"
-    },
-    {
-        "role": "assistant",
-        "content": "Based on the search results, Jigisha Arora appears to be a faculty member or researcher at the Indian Institute of Technology (IIT) Ropar, with a presence on professional networking platforms such as LinkedIn."
-    },
-    {
-        "role": "user",
-        "content": "Can you give linkedin profile link of her?"
-    },
-    {
-        "role": "assistant",
-        "content": "Unfortunately, I couldn't find a direct LinkedIn profile link for Jigisha Arora specifically associated with IIT Ropar. However, I can provide you with some general information on how to find someone's LinkedIn profile or share your own profile link.\n\nAccording to LinkedIn's help center, you can manage your public profile URL and share it with others. The format of a LinkedIn profile URL typically looks like this: `linkedin.com/in/username`.\n\nIf you're looking for Jigisha Arora's profile, you can try searching for her name along with her affiliation (IIT Ropar) on LinkedIn. If you're unable to find her profile, you may want to try reaching out to her or IIT Ropar directly to request her contact information or profile link."
-    },
-    {
-        "role": "user",
-        "content": "Hi"
-    },
-    {
-        "role": "assistant",
-        "content": "Hi"
-    },
-    {
-        "role": "user",
-        "content": "who is raman"
-    },
-    {
-        "role": "assistant",
-        "content": "Chandrasekhara Venkata Raman was an Indian physicist who was awarded the Nobel Prize in Physics in 1930 for his discovery of the Raman effect, which is the inelastic scattering of light by molecules."
+        "content": "According to the search results, the current stock price of Apple Inc. (AAPL) is $196.45."
     }
 ]
