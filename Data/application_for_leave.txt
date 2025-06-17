@@ -1,0 +1,33 @@
+Here is a sample application for leave:
+
+[Your Name]
+[Your Address]
+[City, State, Pincode]
+[Email ID]
+[Date]
+
+[Recipient's Name]
+[Recipient's Designation]
+[School/Organization's Name]
+[City, State, Pincode]
+
+Subject: Application for Leave
+
+Dear [Recipient's Name],
+
+I am writing to request a leave of absence from school/work for [number] days, starting from [start date] to [end date].
+
+The reason for my leave is [provide a valid reason, e.g., personal reasons, illness, family function, etc.]. I understand that this may be a busy period, but I have an unavoidable commitment that I must attend to.
+
+I have completed all my tasks and made necessary arrangements to ensure that my work is up-to-date. I will ensure that my absence does not affect the smooth functioning of the school/organization.
+
+I would like to request your approval for my leave and appreciate your understanding in this matter.
+
+Thank you for your time and consideration.
+
+Sincerely,
+
+[Your Signature]
+[Your Name]
+
+Note: You can customize this template as per your needs and requirements. Make sure to include all necessary details and proofread your application before submitting it.

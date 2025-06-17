@@ -49,7 +49,7 @@ def Content(Topic):
     def ContentWriterAI(prompt):
         messages.append({"role": "user", "content": prompt})
         completion = client.chat.completions.create(
-            model="mixtral-8x7b-32768",
+            model="llama3-70b-8192",
             messages=SystemChatBot + messages,
             max_tokens=2048,
             temperature=0.7,
@@ -76,7 +76,6 @@ def Content(Topic):
 
     OpenNotepad(f"Data/{file_name}")
     return True
-
 # YouTube search
 def YouTubeSearch(Topic):
     webbrowser.open(f"https://www.youtube.com/results?search_query={Topic}")
