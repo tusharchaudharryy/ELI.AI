@@ -46,5 +46,341 @@
     {
         "role": "assistant",
         "content": "According to the search results, today's weather in Noida, Uttar Pradesh, India are:\n\n* Minimum temperature: 27\u00b0C (degrees celsius)\n* Maximum temperature: 36\u00b0C (degrees celsius)\n* Partly cloudy with a probability of precipitation: 25%\n* Wind: NE at 7 mph with gusts up to 15 mph\n* RealFeel: 89\u00b0\n\nPlease note that these conditions are subject to change throughout the day."
+    },
+    {
+        "role": "user",
+        "content": "Hi ali how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm a doctor turned entrepreneur and author with 8 million plus followers on social media. I share books, ideas, strategies, and tools for building a life you love."
+    },
+    {
+        "role": "user",
+        "content": "What is the weather in ghaziabad today?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the current weather in Ghaziabad, Uttar Pradesh, India is:\n\n* Temperature: 93\u00b0F (33.9\u00b0C)\n* Conditions: Hazy sunshine\n* RealFeel: 103\u00b0F (39.4\u00b0C)\n* Description: Very Hot\n\nPlease note that these conditions are subject to change throughout the day."
+    },
+    {
+        "role": "user",
+        "content": "Hi ali how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing great, thanks for asking! I'm a doctor turned entrepreneur and author with 8 million plus followers on social media. I share books, ideas, strategies, and tools for building a life you love."
+    },
+    {
+        "role": "user",
+        "content": "What is the current price of apple stock?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the current price of Apple stock (AAPL) is $202.32 as of 15 Jun '25. Please note that stock prices can fluctuate rapidly, so this information may not reflect the current market situation."
+    },
+    {
+        "role": "user",
+        "content": "Hi how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": "What is the time now?"
+    },
+    {
+        "role": "assistant",
+        "content": "The time is 16 hours, 09 minutes, and 02 seconds."
+    },
+    {
+        "role": "user",
+        "content": "How many days are left in this month?"
+    },
+    {
+        "role": "assistant",
+        "content": "There are 13 days left in June 2025."
+    },
+    {
+        "role": "user",
+        "content": "How are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks for asking!"
+    },
+    {
+        "role": "user",
+        "content": "Hi how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks!"
+    },
+    {
+        "role": "user",
+        "content": "How many days are left in this month?"
+    },
+    {
+        "role": "assistant",
+        "content": "There are 13 days left in June 2025."
+    },
+    {
+        "role": "user",
+        "content": "Hi hi how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks!"
+    },
+    {
+        "role": "user",
+        "content": "What is the time now?"
+    },
+    {
+        "role": "assistant",
+        "content": "The time is 16 hours, 15 minutes, and 03 seconds."
+    },
+    {
+        "role": "user",
+        "content": "Hi hi."
+    },
+    {
+        "role": "assistant",
+        "content": "Hi!"
+    },
+    {
+        "role": "user",
+        "content": "What is the time now?"
+    },
+    {
+        "role": "assistant",
+        "content": "The time is 18 hours, 55 minutes, and 03 seconds."
+    },
+    {
+        "role": "user",
+        "content": "What is the date today?"
+    },
+    {
+        "role": "assistant",
+        "content": "The date today is Tuesday, June 17, 2025."
+    },
+    {
+        "role": "user",
+        "content": "Hi hi."
+    },
+    {
+        "role": "assistant",
+        "content": "Hi!"
+    },
+    {
+        "role": "user",
+        "content": "What is the time in london?"
+    },
+    {
+        "role": "assistant",
+        "content": "London is 5 hours and 30 minutes behind the current time. So, the time in London would be 13 hours, 25 minutes, and 37 seconds."
+    },
+    {
+        "role": "user",
+        "content": "Could you please tell me the latest song of jai ho."
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the latest song of \"Jai Ho\" is \"Jai Ho Jai Ho Shankara\" by Hansraj Raghuwanshi, released on November 23, 2024."
+    },
+    {
+        "role": "user",
+        "content": "Latest song jai ho bts."
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, there is no latest song called \"Jai Ho\" by BTS. The search results show FMVs (Fan-made Music Videos) of BTS members dancing to the song \"Jai Ho\" from the movie Slumdog Millionaire."
+    },
+    {
+        "role": "user",
+        "content": "Could you please tell me the latest song of jai ho."
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the latest song of \"Jai Ho\" is \"Jai Ho Jai Ho Shankara\" by Hansraj Raghuwanshi, released on November 23, 2024."
+    },
+    {
+        "role": "user",
+        "content": "Could you please tell me the latest song of jai hope from bts."
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the latest song of j-hope from BTS is \"Killin' It Girl (feat. GloRilla)\" which was released 4 days ago."
+    },
+    {
+        "role": "user",
+        "content": "Mast hai aur."
+    },
+    {
+        "role": "assistant",
+        "content": "Life is good!"
+    },
+    {
+        "role": "user",
+        "content": "Kyon."
+    },
+    {
+        "role": "assistant",
+        "content": "No particular reason, just feeling good!"
+    },
+    {
+        "role": "user",
+        "content": "What is your name?"
+    },
+    {
+        "role": "assistant",
+        "content": "My name is EliAI."
+    },
+    {
+        "role": "user",
+        "content": "How are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks!"
+    },
+    {
+        "role": "user",
+        "content": "When was neet result 2025 announced?"
+    },
+    {
+        "role": "assistant",
+        "content": "The NEET 2025 result was announced on June 14, 2025."
+    },
+    {
+        "role": "user",
+        "content": "When is cat 2025 result exam?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, CAT 2025 results are expected to be declared in the last week of December 2025."
+    },
+    {
+        "role": "user",
+        "content": "What it is it's exam date?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the CAT 2025 exam date is November 26, 2025."
+    },
+    {
+        "role": "user",
+        "content": "What is the time now?"
+    },
+    {
+        "role": "assistant",
+        "content": "The time is 19 hours, 05 minutes, and 25 seconds."
+    },
+    {
+        "role": "user",
+        "content": "Particular keyboard le raha hai."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you're facing an issue with your keyboard. If you're getting incorrect characters or typing errors, you might want to check your keyboard settings or try resetting it. If the problem persists, consider seeking help from a technical expert or searching for solutions online."
+    },
+    {
+        "role": "user",
+        "content": "Okay."
+    },
+    {
+        "role": "assistant",
+        "content": "You're welcome!"
+    },
+    {
+        "role": "user",
+        "content": "Did i ask you to do such thing."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake. You're right, you didn't ask me to provide a solution for your keyboard issue. I should have only acknowledged your statement instead of offering help."
+    },
+    {
+        "role": "user",
+        "content": "Can you speak in hindi?"
+    },
+    {
+        "role": "assistant",
+        "content": "Sorry, I can only respond in English."
+    },
+    {
+        "role": "user",
+        "content": "What is the meaning of anionga seo in english?"
+    },
+    {
+        "role": "assistant",
+        "content": "The term \"Anionga SEO\" doesn't have a direct English translation. However, \"Anionga\" seems to be a combination of \"Ani\" (meaning \"oga\". \"Oga\" is a term used in some African cultures to address a respected person or an elder. \"Anionga\" might be a specific name or title.\n\n\"SEO\" stands for \"Search Engine Optimization\", which is the process of improving the visibility and ranking of a website in search engine results pages (SERPs) through various techniques and strategies."
+    },
+    {
+        "role": "user",
+        "content": "Hi hi."
+    },
+    {
+        "role": "assistant",
+        "content": "Hi!"
+    },
+    {
+        "role": "user",
+        "content": "What is the time now?"
+    },
+    {
+        "role": "assistant",
+        "content": "The time is 19 hours, 31 minutes, and 36 seconds."
+    },
+    {
+        "role": "user",
+        "content": "What is the price of apple stock today?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the current price of Apple stock (AAPL) is $198.42."
+    },
+    {
+        "role": "user",
+        "content": "How is weather in hyderabad?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the current weather in Hyderabad, Telangana, India is:\n\n* Temperature: 33.9\u00b0C (93\u00b0F)\n* Feels Like: 39.4\u00b0C (103\u00b0F)\n* Conditions: Hazy sunshine\n* Humidity: 53%\n* Precipitation: Rain: 0 Snow: 0\n* Precipitation Chance: 7%\n\nPlease note that these conditions are subject to change throughout the day."
+    },
+    {
+        "role": "user",
+        "content": "Aur kuchh poochho."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm ready to answer!"
+    },
+    {
+        "role": "user",
+        "content": "Yah to sab kuchh sun raha hai."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm listening to everything!"
+    },
+    {
+        "role": "user",
+        "content": "Who is the topper of neet 2025."
+    },
+    {
+        "role": "assistant",
+        "content": "According to the search results, the topper of NEET 2025 is Mahesh Kumar from Rajasthan, who scored 686 out of 720 marks."
+    },
+    {
+        "role": "user",
+        "content": "Pata kya puchun."
+    },
+    {
+        "role": "assistant",
+        "content": "Ask me anything!"
     }
 ]
