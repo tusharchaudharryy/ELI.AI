@@ -3,91 +3,89 @@ from random import randint
 from PIL import Image
 import requests
 from dotenv import get_key
-from pathlib import Path
 import os
 from time import sleep
 
-# Get paths
-current_path = Path(__file__).resolve()
-root_path = current_path.parents[1]  # ELI.AI folder
-env_path = root_path / ".env"
-data_file_path = root_path / "Frontend" / "Files" / "ImageGeneration.data"
-image_save_folder = root_path / "Data"
-
-# Create image folder if it doesn't exist
-image_save_folder.mkdir(parents=True, exist_ok=True)
-
-# Load API key from .env
-headers = {
-    "Authorization": f"Bearer {get_key(str(env_path), 'HuggingFaceAPIKey')}"
-}
-API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-1"
-
-# Function to open generated images
+# Function to open and display images based on a given prompt
 def open_images(prompt):
-    prompt = prompt.replace(" ", "_")
-    files = [f"{prompt}{i}.jpg" for i in range(1, 5)]
+    folder_path = r"Data"    # Folder where the images are stored
+    prompt = prompt.replace(' ', '_')  # Replace spaces in prompt with underscores
 
-    for jpg_file in files:
-        image_path = image_save_folder / jpg_file
+    # Generate the filenames for the images
+    Files = [f"{prompt}{i}.jpg" for i in range(1, 5)]
+
+    for jpg_file in Files:
+        image_path = os.path.join(folder_path, jpg_file)
+
         try:
+            # Try to open and display the image
             img = Image.open(image_path)
             print(f"Opening image: {image_path}")
             img.show()
-            sleep(1)
+            sleep(1)  # Pause for 1 second before showing the next image
+
         except IOError:
             print(f"Unable to open {image_path}")
 
-# Async request to Hugging Face
+# API details for the Hugging Face Stable Diffusion model
+API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
+headers = {"Authorization": f"Bearer {get_key('.env', 'HuggingFaceAPIKey')}"}
+
+# Async function to send a query to the Hugging Face API
 async def query(payload):
     response = await asyncio.to_thread(requests.post, API_URL, headers=headers, json=payload)
-    if "image" in response.headers.get("Content-Type", ""):
-        return response.content
-    else:
-        print("Error from API:", response.text)
-        return None
+    return response.content
 
-# Generate 4 images asynchronously
+# Async function to generate images based on the given prompt
 async def generate_images(prompt: str):
     tasks = []
+
+    # Create 4 image generation tasks
     for _ in range(4):
         payload = {
-            "inputs": f"{prompt}, quality=4K, sharpness=maximum, Ultra High details, high resolution, seed={randint(0, 1000000)}"
+            "inputs": f"[prompt], quality=4K, sharpness=maximum, Ultra High details, high resolution, seed = {randint(0, 1000000)}",
         }
-        tasks.append(asyncio.create_task(query(payload)))
+        task = asyncio.create_task(query(payload))
+        tasks.append(task)
 
+    # Wait for all tasks to complete
     image_bytes_list = await asyncio.gather(*tasks)
 
+    # Save the generated images to files
     for i, image_bytes in enumerate(image_bytes_list):
-        if image_bytes is None:
-            continue
-        image_file = image_save_folder / f"{prompt.replace(' ', '_')}{i + 1}.jpg"
-        with open(image_file, "wb") as f:
+        with open(fr"Data\{prompt.replace(' ', '_')}{i + 1}.jpg", "wb") as f:
             f.write(image_bytes)
 
-# Main image generation wrapper
-def GenerateImage(prompt: str):
-    asyncio.run(generate_images(prompt))
-    open_images(prompt)
+# Wrapper function to generate and open images
+def GenerateImages(prompt: str):
+    asyncio.run(generate_images(prompt))   # Run the async image generation
+    open_images(prompt)                    # Open the generated images
 
-# File watcher loop
+# Main loop to monitor for image generation requests
 while True:
+
     try:
-        with open(data_file_path, "r") as f:
-            Data = f.read().strip()
+        # Read the status and prompt from the data file
+        with open(r"Frontend\Files\ImageGeneration.data", "r") as f:
+            Data: str = f.read()
 
         Prompt, Status = Data.split(",")
+        
+        # If the status indicates an image generation request
+        if Status == "True":
+            print("Generating Images ...")
+            ImageStatus = GenerateImages(prompt=Prompt)
 
-        if Status.strip() == "True":
-            print("Generating Image...")
-            GenerateImage(prompt=Prompt)
-
-            with open(data_file_path, "w") as f:
+        # Reset the status in the file after generating images
+            with open(r"Frontend\Files\ImageGeneration.data", "w") as f:
                 f.write("False,False")
-            break
-        else:
-            sleep(1)
+                break   # Exit the loop after processing the request
 
-    except Exception as e:
-        print("Error:", e)
-        sleep(1)
+        else:
+            sleep(1)   # Wait for 1 second before checking again
+
+    except:
+        pass
+
+
+
