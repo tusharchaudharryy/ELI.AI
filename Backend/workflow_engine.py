@@ -81,7 +81,7 @@ def Content(Topic):
 def YouTubeSearch(Topic):
     webbrowser.open(f"https://www.youtube.com/results?search_query={Topic}")
     return True
-YouTubeSearch("elvish yadav")
+
 # Play YouTube video
 def PlayYoutube(query):
     playonyt(query)

@@ -8,12 +8,12 @@ from Frontend.GUI import (
     QueryModifier,
     GetMicrophoneStatus,
     GetAssistantStatus )
-from Backend.Model import FirstLayerDMM
-from Backend.RealtimeSearchEngine import RealtimeSearchEngine
-from Backend.Automation import Automation
-from Backend.SpeechToText import SpeechRecognition
-from Backend.Chatbot import ChatBot
-from Backend.TextToSpeech import TextToSpeech
+from Backend.brain_core import FirstLayerDMM
+from Backend.live_info_fetcher import RealtimeSearchEngine
+from Backend.workflow_engine import Automation
+from Backend.voice_input_processor import SpeechRecognition
+from Backend.smart_assistant import ChatBot
+from Backend.voice_output_synth import TextToSpeech
 from dotenv import dotenv_values
 from asyncio import run
 from time import sleep

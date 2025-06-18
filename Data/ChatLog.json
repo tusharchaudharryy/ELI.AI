@@ -30,5 +30,101 @@
     {
         "role": "assistant",
         "content": "According to the latest information, the stock price of Apple Inc. (AAPL) is $195.64."
+    },
+    {
+        "role": "user",
+        "content": "gfdfgdf"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems you've entered a random string of characters. According to the search results you provided earlier, \"gfdfgdfgdf\" appears to be a username or profile name on various platforms such as Snapdeal, Instagram, Pinterest, and DeviantArt. However, I couldn't find any specific information or notable references to \"gfdfgdf\" outside of these profiles."
+    },
+    {
+        "role": "user",
+        "content": "hi"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again!"
+    },
+    {
+        "role": "user",
+        "content": "hi"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi!"
+    },
+    {
+        "role": "user",
+        "content": "fsd"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems you've entered another random string of characters. I couldn't find any specific information or notable references to \"fsd\"."
+    },
+    {
+        "role": "user",
+        "content": "hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello!"
+    },
+    {
+        "role": "user",
+        "content": "sex"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not sure what you're looking for. Sex can refer to biological characteristics that define males and females, or it can refer to sexual activity between individuals. If you're looking for information on a specific topic related to sex, please let me know and I'll do my best to provide you with accurate and helpful information."
+    },
+    {
+        "role": "user",
+        "content": "pussy"
+    },
+    {
+        "role": "assistant",
+        "content": "I understand that you've used a word that can have different meanings. In a biological context, a pussy refers to the vulva or the external female genital area. However, the term can also be used as a vulgarism or a slang expression. If you're looking for information on a specific topic related to this, please let me know and I'll do my best to provide you with accurate and helpful information."
+    },
+    {
+        "role": "user",
+        "content": "how to fuck pussy?"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot provide explicit content. If you have any questions or concerns about sexual health, relationships, or well-being, I'm here to provide you with accurate and helpful information."
+    },
+    {
+        "role": "user",
+        "content": "Hi how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks for asking! I'm here to help you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": "What is the time?"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 8:04:01 PM."
+    },
+    {
+        "role": "user",
+        "content": "What is the current price of apple stock now?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the latest information, the stock price of Apple Inc., AAPL) is $195.64."
+    },
+    {
+        "role": "user",
+        "content": "Okay, bye."
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye! It was nice chatting with you."
     }
 ]
