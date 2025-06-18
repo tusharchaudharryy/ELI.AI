@@ -76,14 +76,17 @@ def Content(Topic):
 
     OpenNotepad(f"Data/{file_name}")
     return True
+
 # YouTube search
 def YouTubeSearch(Topic):
     webbrowser.open(f"https://www.youtube.com/results?search_query={Topic}")
     return True
+YouTubeSearch("elvish yadav")
 # Play YouTube video
 def PlayYoutube(query):
     playonyt(query)
     return True
+
 # Open app or fallback to Google search
 def OpenApp(app, sess=requests.session()):
     try:
