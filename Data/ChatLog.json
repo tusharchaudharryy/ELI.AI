@@ -126,5 +126,85 @@
     {
         "role": "assistant",
         "content": "Goodbye! It was nice chatting with you."
+    },
+    {
+        "role": "user",
+        "content": "Hi how are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm doing well, thanks for asking! I'm here to help you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": "America."
+    },
+    {
+        "role": "assistant",
+        "content": "You mentioned \"America\". Based on our previous conversation, I can provide you with some information about America. The United States of America, commonly referred to as the United States or America, is a country primarily located in North America. It is a federal republic consisting of 50 states, a federal district, five major self-governing territories, and various possessions. If you have any specific questions about America or would like to know more about a particular topic, feel free to ask!"
+    },
+    {
+        "role": "user",
+        "content": "What is the temperature in hyderabad?"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the latest information, the current temperature in Hyderabad is 31\u00b0C, with a humidity of 52%, and a wind speed of 24.1 km/h."
+    },
+    {
+        "role": "user",
+        "content": "Distance between hyderabad and ghaziabad by road."
+    },
+    {
+        "role": "assistant",
+        "content": "The distance between Hyderabad and Ghaziabad by road is approximately 1,465 km (910 miles)."
+    },
+    {
+        "role": "user",
+        "content": "Okay, bye."
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye! It was nice chatting with you."
+    },
+    {
+        "role": "user",
+        "content": "Hey hi."
+    },
+    {
+        "role": "assistant",
+        "content": "Hi!"
+    },
+    {
+        "role": "user",
+        "content": "What do you mean by cnn?"
+    },
+    {
+        "role": "assistant",
+        "content": "CNN stands for Cable News Network, which is a 24-hour news coverage and one of the major news organizations in the world."
+    },
+    {
+        "role": "user",
+        "content": "I am asking about convolution neural network."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the confusion! CNN stands for Convolutional Neural Network, a type of deep learning algorithm used for image and signal processing, particularly in the fields of computer vision and natural language processing."
+    },
+    {
+        "role": "user",
+        "content": "What is tensor flow?"
+    },
+    {
+        "role": "assistant",
+        "content": "TensorFlow is an open-source software library for machine learning and artificial intelligence. It was developed by Google and is particularly well-suited for large-scale deep learning tasks."
+    },
+    {
+        "role": "user",
+        "content": "Are main panchayat a gaya hai."
+    },
+    {
+        "role": "assistant",
+        "content": "It seems you're referring to the search results you provided at the beginning of our conversation. The search results appear to be related to panchayat elections in Uttar Pradesh, India."
     }
 ]
